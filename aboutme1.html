@@ -43,21 +43,13 @@
   
 <head>
   
-<script>
-  
-function myFunction() {
-    document.getElementById("demo").innerHTML = "Paragraph changed.";
-}
-</script>
-</head>
+<p>Click one button for __ and the other for ___ </p>
 
-<body>
+<button onclick="document.getElementById('myImage').src='pic_bulbon.gif'">Turn on the light</button>
 
-<h2>JavaScript in Head</h2>
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
 
-<p id="demo">A Paragraph.</p>
-
-<button type="button" onclick="myFunction()">Try it</button>
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
 
 </body>
 
